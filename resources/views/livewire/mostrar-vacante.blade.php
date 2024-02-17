@@ -14,7 +14,7 @@
             <p class="font-bold text-sm uppercase text-gray-800 my-3 dark:text-gray-300">Categoría:
                 <span class="font-normal normal-case">{{ $vacante->categoria->categoria }}</span>
             </p>
-            <p class="font-bold text-sm uppercase text-gray-800 my-3 dark:text-gray-300">Categoría:
+            <p class="font-bold text-sm uppercase text-gray-800 my-3 dark:text-gray-300">Salario:
                 <span class="font-normal normal-case">{{ $vacante->salario->salario }}</span>
             </p>
 
