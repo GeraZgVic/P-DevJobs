@@ -31,7 +31,7 @@ class AuthServiceProvider extends ServiceProvider
             ->subject('Verificar Cuenta')
             ->greeting(Lang::get('Hola! ') .$notifiable->name)
             ->line('Tu cuenta ya está casi lista, solo debes presionar el enlace a continuación:')
-            ->action('Confirmar Cuneta', $url)
+            ->action('Confirmar Cuenta', $url)
             ->line('Si no creaste esta cuenta puedes ignorar el mensaje.')
             ->salutation(new HtmlString(
                 Lang::get("Saludos,") . '<br>' . '<strong>' . Lang::get("DevJobs.") . '</strong>'
